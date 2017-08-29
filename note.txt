@@ -1,0 +1,18 @@
+将文件同步到git服务器：
+
+1、本地创建文件  touch demo.txt
+2、初始化  git init
+3、git add demo.txt
+4、git commit -m ""
+5、git remote add origin git@github.com:caixychd/test01.git
+6、git push -u origin master
+
+
+其中，
+用ssh进行连接，
+1 $ ssh-keygen -t rsa -C "邮件地址@youremail.com"
+2 Generating public/private rsa key pair.
+3 Enter file in which to save the key (/Users/your_user_directory/.ssh/id_rsa):<回车就好>
+4、在github设置中，进行ssh key设定。
+
+还有需要在github上建立仓库。
